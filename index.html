@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#1b1633" />
+<meta name="description" content="马老师的故事屋 —— 一盏灯、一本书、马老师的声音，把故事讲给你听。" />
+<title>马老师的故事屋</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%B4%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="css/style.css?v=7" />
+</head>
+<body>
+  <!-- 夜空与星星 -->
+  <div class="sky" aria-hidden="true">
+    <div class="stars stars-a"></div>
+    <div class="stars stars-b"></div>
+    <div class="stars stars-c"></div>
+    <div class="hill"></div>
+  </div>
+
+  <main class="container">
+    <!-- ======= 头部 ======= -->
+    <header class="hero">
+      <p class="eyebrow">✨ 会讲故事的老师 · 专属电台 ✨</p>
+      <h1 class="house-name">马老师的故事屋</h1>
+      <p class="tagline">一盏灯、一本书、马老师的声音，<br/>把每一个夜晚，都讲成故事。</p>
+
+      <button class="share-pill" id="btn-share" type="button">
+        <span class="share-icon">📤</span> 把故事屋分享给孩子们
+      </button>
+
+      <!-- 吉祥物：戴眼镜的马老师 -->
+      <div class="mascot" aria-hidden="true">
+        <div class="mascot-glow"></div>
+        <svg class="mascot-svg" viewBox="0 0 240 240" role="img" aria-label="戴眼镜的马老师">
+          <defs>
+            <radialGradient id="headGrad" cx="50%" cy="38%" r="75%">
+              <stop offset="0%"  stop-color="#fbe3b6"/>
+              <stop offset="100%" stop-color="#f2cf98"/>
+            </radialGradient>
+            <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#ffd98a" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#ffd98a" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+
+          <!-- 左耳 -->
+          <path d="M86 92 C72 80 72 42 92 30 C102 46 106 72 108 90 C99 98 92 98 86 92 Z" fill="#f2cf98"/>
+          <path d="M90 84 C80 74 82 50 94 44 C100 54 102 70 103 82 C97 88 93 88 90 84 Z" fill="#e6b888"/>
+          <!-- 右耳 -->
+          <path d="M154 92 C168 80 168 42 148 30 C138 46 134 72 132 90 C141 98 148 98 154 92 Z" fill="#f2cf98"/>
+          <path d="M150 84 C160 74 158 50 146 44 C140 54 138 70 137 82 C143 88 147 88 150 84 Z" fill="#e6b888"/>
+
+          <!-- 脸 -->
+          <ellipse cx="120" cy="132" rx="55" ry="70" fill="url(#headGrad)"/>
+
+          <!-- 额前小卷毛（鬃） -->
+          <path d="M106 70 Q110 46 120 42 Q130 46 134 70 Q120 80 106 70 Z" fill="#8a5a3b"/>
+
+          <!-- 口鼻部 -->
+          <ellipse cx="120" cy="172" rx="38" ry="27" fill="#ffe8c4"/>
+
+          <!-- 腮红 -->
+          <ellipse cx="78" cy="152" rx="10" ry="6" fill="#f7a59d" opacity="0.7"/>
+          <ellipse cx="162" cy="152" rx="10" ry="6" fill="#f7a59d" opacity="0.7"/>
+
+          <!-- 眼睛 -->
+          <circle cx="92" cy="122" r="14" fill="#3a2a1c"/>
+          <circle cx="148" cy="122" r="14" fill="#3a2a1c"/>
+          <circle cx="88" cy="118" r="4.5" fill="#fff"/>
+          <circle cx="144" cy="118" r="4.5" fill="#fff"/>
+          <circle cx="94" cy="126" r="2.2" fill="#fff" opacity="0.8"/>
+          <circle cx="150" cy="126" r="2.2" fill="#fff" opacity="0.8"/>
+
+          <!-- 眼镜 -->
+          <circle cx="92" cy="122" r="21"  fill="none" stroke="#e0a63e" stroke-width="4.5"/>
+          <circle cx="148" cy="122" r="21" fill="none" stroke="#e0a63e" stroke-width="4.5"/>
+          <path d="M113 121 Q120 113 127 121" fill="none" stroke="#e0a63e" stroke-width="4.5" stroke-linecap="round"/>
+          <path d="M71 120 L58 115 M169 120 L182 115" fill="none" stroke="#e0a63e" stroke-width="4.5" stroke-linecap="round"/>
+
+          <!-- 鼻孔 + 微笑 -->
+          <ellipse cx="109" cy="170" rx="5" ry="4" fill="#cf9a6b"/>
+          <ellipse cx="131" cy="170" rx="5" ry="4" fill="#cf9a6b"/>
+          <path d="M120 176 L120 184" stroke="#cf9a6b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M111 189 Q120 197 129 189" stroke="#c08a5e" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+          <!-- 领结 -->
+          <path d="M120 206 C104 198 90 202 90 208 C90 214 104 216 120 208 Z" fill="#e25a4e"/>
+          <path d="M120 206 C136 198 150 202 150 208 C150 214 136 216 120 208 Z" fill="#e25a4e"/>
+          <circle cx="120" cy="208" r="7" fill="#b8433a"/>
+        </svg>
+
+        <div class="bubble">
+          <span class="bubble-text">今天想听什么故事呀？<span class="bubble-emoji">📖</span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======= 开场白 ======= -->
+    <section class="card greeting" id="greeting-card">
+      <div class="card-emoji" id="greet-emoji">📣</div>
+      <div class="card-body">
+        <h2 class="card-title" id="greet-title">马老师的开场白</h2>
+        <p class="card-desc" id="greet-desc">一句问候，一份心意。</p>
+        <p class="card-note" id="greet-note">🎙️ 录制中……等马老师亲口说一句「欢迎来到故事屋」</p>
+      </div>
+    </section>
+
+    <!-- ======= 节目单 ======= -->
+    <section class="card playlist">
+      <div class="playlist-head">
+        <h2 class="card-title">📚 故事屋 · 节目单</h2>
+        <span class="playlist-badge" id="episode-count"></span>
+      </div>
+      <ul class="episode-list" id="episode-list"></ul>
+      <p class="playlist-hint">新的故事会陆续在这里上架，敬请期待～</p>
+    </section>
+
+    <footer class="foot">
+      <p class="foot-line">🌙 马老师的故事屋</p>
+      <p class="foot-sub" id="foot-sub">教师节 · 特别礼物 · 持续更新中</p>
+    </footer>
+  </main>
+
+  <!-- ======= 底部播放条 ======= -->
+  <div class="player" id="player" hidden>
+    <div class="player-info">
+      <span class="player-emoji" id="player-emoji">🎧</span>
+      <div class="player-meta">
+        <p class="player-title" id="player-title">正在播放</p>
+        <p class="player-sub" id="player-sub"></p>
+      </div>
+    </div>
+    <div class="player-controls">
+      <div class="player-track">
+        <span class="player-time" id="time-cur">0:00</span>
+        <input class="player-range" id="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="播放进度" />
+        <span class="player-time" id="time-dur">0:00</span>
+      </div>
+      <div class="player-actions">
+        <button class="pbtn pbtn-main" id="btn-start" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg><span>开始</span>
+        </button>
+        <button class="pbtn" id="btn-pause" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg><span>暂停</span>
+        </button>
+        <button class="pbtn pbtn-stop" id="btn-stop" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg><span>结束</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Toast ======= -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- ?v= 用来强制浏览器绕过旧缓存；改了 css/js 就把它 +1 -->
+<script src="js/stories.js?v=7"></script>
+<script src="js/app.js?v=7"></script>
+</body>
+</html>
