@@ -103,6 +103,46 @@ window.MS_HOUSE = {
       "file": "audio/s9.mp3",
       "ready": true,
       "v": "7ab4fd-1a0894b5507"
+    },
+    {
+      "id": "s10",
+      "title": "拇指姑娘（一）· 胡桃壳里的孩子",
+      "desc": "从一朵郁金香里，开出一个只有拇指一半长的小姑娘。",
+      "emoji": "🌷",
+      "tone": "#d98bb5",
+      "file": "audio/s10.mp3",
+      "ready": true,
+      "v": "60cecd-1a0f15ab065"
+    },
+    {
+      "id": "s11",
+      "title": "拇指姑娘（二）· 地洞里的死燕子",
+      "desc": "金龟子嫌她丑，田鼠收留了她。鼹鼠的地道里躺着一只燕子。",
+      "emoji": "🌷",
+      "tone": "#d98bb5",
+      "file": "audio/s11.mp3",
+      "ready": true,
+      "v": "5ed99d-1a0f15e66dc"
+    },
+    {
+      "id": "s12",
+      "title": "拇指姑娘（三）· 她救活的那只燕子",
+      "desc": "她偷偷暖活了那只燕子，可婚礼的日子一天天近了。",
+      "emoji": "🌷",
+      "tone": "#d98bb5",
+      "file": "audio/s12.mp3",
+      "ready": true,
+      "v": "60389d-1a0f1622031"
+    },
+    {
+      "id": "s13",
+      "title": "拇指姑娘（四）· 花中的国王",
+      "desc": "燕子带她飞向温暖的国度，花心里坐着一位小小的国王。",
+      "emoji": "🌷",
+      "tone": "#d98bb5",
+      "file": "audio/s13.mp3",
+      "ready": true,
+      "v": "5b5ced-1a0f165ad18"
     }
   ]
 };
