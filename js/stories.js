@@ -223,6 +223,46 @@ window.MS_HOUSE = {
       "file": "audio/s21.mp3",
       "ready": true,
       "v": "95a5cd-1a10c44222e"
+    },
+    {
+      "id": "s22",
+      "title": "飞箱（一）· 会飞的箱子",
+      "desc": "商人的儿子败光了家产，却得到一只一按锁就能飞的箱子。",
+      "emoji": "🧳",
+      "tone": "#c08a4e",
+      "file": "audio/s22.mp3",
+      "ready": true,
+      "v": "214f1d-1a10c4add21"
+    },
+    {
+      "id": "s23",
+      "title": "飞箱（二）· 屋顶上的公主",
+      "desc": "他飞到公主的屋顶，说自己是土耳其的神，约定星期六讲故事求婚。",
+      "emoji": "🧳",
+      "tone": "#c08a4e",
+      "file": "audio/s23.mp3",
+      "ready": true,
+      "v": "1dfe4d-1a10c4b81d8"
+    },
+    {
+      "id": "s24",
+      "title": "飞箱（三）· 柴火的故事",
+      "desc": "他讲了一个柴火、铁罐和火钳在厨房里开晚会的故事。",
+      "emoji": "🧳",
+      "tone": "#c08a4e",
+      "file": "audio/s24.mp3",
+      "ready": true,
+      "v": "53666d-1a10c4d6f62"
+    },
+    {
+      "id": "s25",
+      "title": "飞箱（四）· 婚礼与焰火",
+      "desc": "国王同意了他们结婚，可焰火的一颗火星，把箱子烧成了灰烬。",
+      "emoji": "🧳",
+      "tone": "#c08a4e",
+      "file": "audio/s25.mp3",
+      "ready": true,
+      "v": "23537d-1a10c4e51c4"
     }
   ]
 };
