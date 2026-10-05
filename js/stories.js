@@ -143,6 +143,46 @@ window.MS_HOUSE = {
       "file": "audio/s13.mp3",
       "ready": true,
       "v": "5b5ced-1a0f165ad18"
+    },
+    {
+      "id": "s14",
+      "title": "坚定的锡兵（一）· 独腿的锡兵",
+      "desc": "二十五个锡兵里，有一个只有一条腿。他爱上了一位纸做的小姐。",
+      "emoji": "🪖",
+      "tone": "#5e7d9c",
+      "file": "audio/s14.mp3",
+      "ready": true,
+      "v": "23186d-1a10c2d102a"
+    },
+    {
+      "id": "s15",
+      "title": "坚定的锡兵（二）· 黑妖精的诅咒",
+      "desc": "鼻烟壶里的黑妖精作怪，锡兵从三楼跌了下去，坐上了纸船。",
+      "emoji": "🪖",
+      "tone": "#5e7d9c",
+      "file": "audio/s15.mp3",
+      "ready": true,
+      "v": "26e7cd-1a10c2e2769"
+    },
+    {
+      "id": "s16",
+      "title": "坚定的锡兵（三）· 下水道历险记",
+      "desc": "纸船冲进下水道，遇见了张牙舞爪的大耗子，又被一条大鱼吞下。",
+      "emoji": "🪖",
+      "tone": "#5e7d9c",
+      "file": "audio/s16.mp3",
+      "ready": true,
+      "v": "21b2ad-1a10c2f0286"
+    },
+    {
+      "id": "s17",
+      "title": "坚定的锡兵（四）· 火炉里的锡心",
+      "desc": "锡兵又回到心爱的小姐身边，最后在火炉里化成了一颗锡心。",
+      "emoji": "🪖",
+      "tone": "#5e7d9c",
+      "file": "audio/s17.mp3",
+      "ready": true,
+      "v": "23dc2d-1a10c2fe36c"
     }
   ]
 };
