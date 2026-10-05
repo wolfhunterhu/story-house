@@ -345,6 +345,7 @@ body::selection{background:var(--amber);color:#2a1a08;}
 .foot{text-align:center;margin-top:30px;color:#9c8ac8;}
 .foot-line{font-size:14px;font-weight:800;letter-spacing:3px;color:#e7d7ff;}
 .foot-sub{font-size:12px;margin-top:4px;opacity:.8;}
+.foot-counter{font-size:12px;margin-top:8px;opacity:.78;color:#c9b8ec;letter-spacing:.5px;}
 
 @media (min-width:560px){
   .bubble{right:-12%;}
