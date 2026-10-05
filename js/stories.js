@@ -183,6 +183,46 @@ window.MS_HOUSE = {
       "file": "audio/s17.mp3",
       "ready": true,
       "v": "23dc2d-1a10c2fe36c"
+    },
+    {
+      "id": "s18",
+      "title": "野天鹅（一）· 恶毒的后母",
+      "desc": "十一位王子被后母变成了野天鹅，小妹妹艾丽莎也被赶出了王宫。",
+      "emoji": "🦢",
+      "tone": "#7fb3d5",
+      "file": "audio/s18.mp3",
+      "ready": true,
+      "v": "9406ad-1a10c3a7616"
+    },
+    {
+      "id": "s19",
+      "title": "野天鹅（二）· 飞越大海",
+      "desc": "艾丽莎在森林和海边找到了哥哥们，他们带她飞越大海。",
+      "emoji": "🦢",
+      "tone": "#7fb3d5",
+      "file": "audio/s19.mp3",
+      "ready": true,
+      "v": "9e801d-1a10c3de1e4"
+    },
+    {
+      "id": "s20",
+      "title": "野天鹅（三）· 荨麻的秘密",
+      "desc": "仙女托梦告诉她：用荨麻织十一件披甲才能救哥哥们，但不能说一句话。",
+      "emoji": "🦢",
+      "tone": "#7fb3d5",
+      "file": "audio/s20.mp3",
+      "ready": true,
+      "v": "8ca80d-1a10c40f0dd"
+    },
+    {
+      "id": "s21",
+      "title": "野天鹅（四）· 火刑与拯救",
+      "desc": "艾丽莎被当作巫婆判了火刑，她在最后一刻织完了披甲。",
+      "emoji": "🦢",
+      "tone": "#7fb3d5",
+      "file": "audio/s21.mp3",
+      "ready": true,
+      "v": "95a5cd-1a10c44222e"
     }
   ]
 };
